@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header{
+    background: #44ABFF;
+    display: flex;
+    justify-content: center;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header .logo img {
+    width: 100px;
+    vertical-align: top;
+
+}
+
+.header .logo p {
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.container {
+    /* background: #97C93E; */
+    width: 98%;  /* ocupa el 98% de toda la pantalla */
+    margin: auto; 
+    padding: 10px;
+}
+
+.container .celus{
+    /* background: #E2424D; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .items{
+    /* background: #FFCF00; */
+    padding: 10px;
+}
